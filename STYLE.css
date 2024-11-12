@@ -44,3 +44,27 @@
 
 /* navbar ends here  */
 
+/* home page start from here */
+#Homepage{
+    width: 100%;
+    height: 100vh;
+    background-color: white ;
+}
+#Homepage .box{
+    border: 1px solid blue;
+    width: 50%;
+    height: 100% ;
+    background-color: rgb(34, 34, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
