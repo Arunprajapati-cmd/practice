@@ -45,25 +45,61 @@
 /* navbar ends here  */
 
 /* home page start from here */
-#Homepage{
+#homepage{
     width: 100%;
     height: 100vh;
-    background-color: white ;
     display: flex;
-    justify-content:space-between
-
 }
-#Homepage .box{
-    border: 1px solid blue;
+#homepage .box{
     width: 50%;
-    height: 100% ;
-    background-color: rgb(34, 34, 255);
+    height: 100%;
+    background-color: rgb(26, 26, 245);
+    border: 1px solid blue;
+}  
+#homepage .box .container{
+    width: 100%;
+    font-size: 40px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
+    padding-top: 30%;
 }
-.box h1{
+#homepage .box .doctors{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 85px;
+    font-size: 20px;
     color: white;
-    font-size: 60px;
+    padding-top: 35px;
+}
+#homepage .box .doctors .first{
+    border-left: 1px solid white;
+    padding-left: 25px;
+   
+}
+#homepage .box .doctors .second{
+    border-left: 1px solid white;
+    padding-left: 25px;
+   
+}
+#homepage .box .doctors .third{
+    border-left: 1px solid white;
+    padding-left: 25px;
+   
+}
+#homepage .box .doctors .first{
+    border-left: 1px solid white;
+    padding-left: 25px;
+}
+#homepage .image{
+    width: 50%;
+    height: 100%;
+    display: flex; 
+}
+#homepage .image h1 {
+    font-size: 50px;
+    color: white;
 }
