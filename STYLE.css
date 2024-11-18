@@ -36,7 +36,12 @@
 /* ===========================================tophead ends here============================================ */
 
 /* ======================================navbar begins from here========================================= */
-
+#navbar{
+    width: 100%;
+    height:75px ;
+    background-color: white;
+    display: flex;
+}
 #navbar nav{
     width: 100%;
     display: flex;
@@ -161,7 +166,25 @@
 #about .leftside{
     width: 50%;
     height: 100vh;
-
+    display: flex;
+}
+#about .leftside .first1{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+#about .leftside .second2{
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+}
+.first1 img{
+    width: 100%;
+    height: auto;
+}
+.second2 img{
+    width: 100%;
+    height: auto;
 }
 #about .rightside{
     width: 50%;
@@ -201,3 +224,5 @@
     align-items: center;
     border: none;
 }
+/* ========================================================about ends here=================================================== */
+
