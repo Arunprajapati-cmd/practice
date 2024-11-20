@@ -227,3 +227,23 @@
 }
 /* ========================================================about ends here=================================================== */
 
+#services{
+    width: 100%;
+    height: 100vh;
+}
+.boxex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bx{
+    background-color: #eef5ff;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 325px;
+    height: 300px;
+    text-align: center;
+}
+
