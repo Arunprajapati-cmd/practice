@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
     <!-- =======================================tophead coding starts from here====================================== -->
      <div id="tophead">
         <div class="left">
@@ -107,6 +108,7 @@
         <i class="fa fa-heartbeat text-primary fs-4 icon-circle"></i>
           <h1>Cardiology</h1>
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+          <a class="btn" href="#"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
        </div>
        <div class="bx">
         <i class="fa fa-x-ray text-primary fs-4"></i>
@@ -114,18 +116,22 @@
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
        </div>
        <div class="bx">
+        <i class="fa fa-brain text-primary fs-4"></i>
           <h1>Neurology</h1>
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
        </div>
        <div class="bx">
+        <i class="fa fa-wheelchair text-primary fs-4"></i>
           <h1>Orthopedics</h1>
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
        </div>
        <div class="bx">
+        <i class="fa fa-tooth text-primary fs-4"></i>
           <h1>Dental Surgery</h1>
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
        </div>
        <div class="bx">
+        <i class="fa fa-vials text-primary fs-4"></i>
           <h1>Laboratory</h1>
           <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
        </div>
@@ -134,6 +140,40 @@
 
   </section>
       </main>
-
+  <!-- ===============================javascript for navbar===========================================     -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tophead = document.getElementById('tophead');
+            const navbar = document.getElementById('navbar');
+            let lastScrollTop = 0;
+    
+            if (!tophead || !navbar) {
+                console.error('Could not find tophead or navbar elements');
+                return;
+            }
+    
+            function handleScroll() {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > lastScrollTop) {
+                    // Scrolling down
+                    tophead.style.transform = 'translateY(-100%)';
+                    navbar.style.top = '0';
+                    console.log('Scrolling down');
+                } else {
+                    // Scrolling up
+                    tophead.style.transform = 'translateY(0)';
+                    navbar.style.top = '60px';
+                    console.log('Scrolling up');
+                }
+                
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }
+    
+            window.addEventListener('scroll', handleScroll, false);
+            console.log('Scroll event listener added');
+        });
+    </script>
+    <!-- ==============================javascript end================================== -->
 </body>
 </html>
