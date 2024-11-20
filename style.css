@@ -4,8 +4,7 @@
 }
 #tophead{
     width: 100%;
-    min-height: 60px;
-    flex-wrap: wrap;
+    height: 60px;
     display:flex;
     justify-content: space-between;
     background-color: rgb(232, 232, 246);
@@ -15,8 +14,8 @@
 #tophead .right{
     display: flex;
     padding: 40px;
-    display: flex;
     font-size: 20px;
+    color: rgb(141, 139, 139);
 
 }
 #tophead .left{
@@ -24,6 +23,7 @@
     gap: 20px;
     padding: 40px;
     font-size: 20px;
+    color: rgb(141, 139, 139);
 }
 #tophead .left div i{
     gap: 10px;
