@@ -304,6 +304,57 @@ margin-top: 10px;
     text-decoration: none;
     position: relative;
 }
+#services .boxex .bx .btn {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: rgb(23, 23, 233);
+    padding-top: 20px;
+  }
+  #services .boxex .bx .btn span {
+    display: none;
+    font-size: 20px;
+  }
+  
+  #services .boxex .bx .btn:hover span {
+    display: inline;
+  }
+  /* ================================services end===========================================  */
+ #features{
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+ }
+ #features .left-part{
+    width: 50% !important;
+    height: 80%;
+    border: 1px solid black;
+    background-color: rgb(46, 46, 252);
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-left: 100px;
+ }
+ #features .right-part{
+    width: 50% !important;
+    height: 80%;
 
+ }
+#features .left-part .feat{
+    width: 110px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: rgb(46, 46, 252);
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: white;
+}
+.right-part img{
+    width: 100%;
+    height: 118%;
 
+}
 
