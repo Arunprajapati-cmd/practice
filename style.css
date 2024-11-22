@@ -304,20 +304,35 @@ margin-top: 10px;
     text-decoration: none;
     position: relative;
 }
-#services .boxex .bx .btn {
+#services .boxex .bx .read-more{
+    border: 1px solid white;
+    width: 130px;
+    height: 30px;
+    padding-top:20px;
+}
+
+#services .boxex .bx .read-more .btn {
     display: flex;
     align-items: center;
     transition: all 0.3s ease;
     text-decoration: none;
     color: rgb(23, 23, 233);
     padding-top: 20px;
+    
   }
-  #services .boxex .bx .btn span {
+  #services .boxex .bx .read-more .btn i{
+    position: absolute;
+  }
+
+  #services .boxex .bx .read-more .btn {
     display: none;
-    font-size: 20px;
+    font-size: 25px;
+    position: absolute;
+    left: 38px;
+    top: 30px;
   }
   
-  #services .boxex .bx .btn:hover span {
+  #services .boxex .bx .read-more .btn:hover span {
     display: inline;
   }
   /* ================================services end===========================================  */
