@@ -416,6 +416,7 @@ margin-top: 10px;
 }
 #features .left-part .exp{
     display: flex;
+    flex-wrap: wrap;
     
 }
 #features .left-part .exp i{
@@ -457,6 +458,7 @@ margin-top: 10px;
     width: 60px;
     border-radius: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -473,7 +475,69 @@ margin-top: 10px;
 #features .left-part .quality .rhs h3{
     margin-top: 10px;
 }
+#features .left-part .positive{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    position: relative;
+    top:90px;
+    right: 485px;
+}
+#features .left-part .positive i{
+    font-size: 15px;
+    color: #007bff;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+}
+#features .left-part .positive .down{
+   color: white;
+   padding-top:40px ;
+   position: relative;
+   left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
 
+}
+#features .left-part .positive .down h3{
+    margin-top: 10px;
+}
+/* end================ */
+#features .left-part .support{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 170px;
+    
+}
+#features .left-part .support i{
+    font-size: 15px;
+    color: #007bff;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+}
+#features .left-part .support .hours{
+   color: white;
+   padding-top:40px ;
+   position: relative;
+   left: 15px;
+   font-family: Arial, Helvetica, sans-serif;
 
-
-
+}
+#features .left-part .support .hours h3{
+    margin-top: 10px;
+}
