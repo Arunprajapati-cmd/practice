@@ -414,3 +414,66 @@ margin-top: 10px;
     line-height: 25px;
     font-weight: 200;
 }
+#features .left-part .exp{
+    display: flex;
+    
+}
+#features .left-part .exp i{
+    font-size: 15px;
+    color: #007bff;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+}
+#features .left-part .exp .doc{
+   color: white;
+   padding-top:40px ;
+   position: relative;
+   left: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#features .left-part .exp .doc h3{
+    margin-top: 10px;
+}
+#features .left-part .quality{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 200px;
+    
+}
+#features .left-part .quality i{
+    font-size: 15px;
+    color: #007bff;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+}
+#features .left-part .quality .rhs{
+   color: white;
+   padding-top:40px ;
+   position: relative;
+   left: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#features .left-part .quality .rhs h3{
+    margin-top: 10px;
+}
+
+
+
+
