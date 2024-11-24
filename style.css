@@ -547,3 +547,27 @@ margin-top: 10px;
 #features .left-part .support .hours h3{
     margin-top: 10px;
 }
+/* ===================================features ends here================================= */
+/* ==============================doctors section starts from here=========================== */
+#doctors{
+    width: 100%;
+    height: 100vh;
+}
+#doctors .exp-doctors .button-doc{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#doctors .exp-doctors .docts{
+    width: 110px;
+    height: 35px;
+    border-radius: 18px;
+    border: 1px solid rgb(195, 195, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(141, 138, 138, 0.807);
+    background-color: white;
+}
+#doctors .exp-doctors .para{
+    font-size: 40px;
+}
