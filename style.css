@@ -32,11 +32,11 @@
 }
 #tophead .left div i{
     gap: 10px;
-    color: blue;
+    color: #0463fa;
 }
 #tophead .right div i{
     gap: 10px;
-    color: blue;
+    color: #0463fa;
     font-size: 20px;
 }
 /* ===========================================tophead ends here============================================ */
@@ -83,7 +83,7 @@
     gap: 30px;
 }
 .nav-links button{
-    background-color: rgb(39, 39, 246);
+    background-color: #0463fa;
     width: 200px;
     height: 75px;
     font-size: 16px;
@@ -91,7 +91,7 @@
     border: none;   
 }
 .nav-links li:hover a{
-    color: rgb(34, 34, 241) !important; 
+    color: #0463fa !important; 
 }
 
 /* ======================================navbar ends here========================================  */
@@ -291,7 +291,7 @@ font-family: Arial, Helvetica, sans-serif;
 
  .bx i {
 font-size: 40px;
-color: #007bff;
+color: #0463fa;
 margin-bottom: 20px;
 } 
 .bx h1 {
@@ -327,13 +327,13 @@ margin-top: 10px;
 
 #services .boxex .bx .read-more .plus {
     font-size: 30px;
-    color: #007bff;
+    color: #0463fa;
     transition: all 0.3s ease;
 }
 
 #services .boxex .bx .read-more .text {
     font-size: 16px;
-    color: #007bff;
+    color: #0463fa;
     white-space: nowrap;
     position: absolute;
     left: 30px;
@@ -345,7 +345,7 @@ margin-top: 10px;
     width: 120px;
     border-radius: 10px 15px 15px 10px;
     background-color: #f8f9fa;
-    border: 1px solid #007bff;
+    border: 1px solid #0463fa;
 }
 
 #services .boxex .bx .read-more:hover .text {
@@ -373,7 +373,7 @@ margin-top: 10px;
     width: 40% !important;
     height: 80%;
     border: 1px solid black;
-    background-color: rgb(46, 46, 252);
+    background-color:#0463fa;
     flex-wrap: wrap;
     padding: 50px;
     padding-left: 100px;
@@ -387,7 +387,7 @@ margin-top: 10px;
     width: 110px;
     height: 35px;
     border-radius: 18px;
-    background-color: rgb(46, 46, 252);
+    background-color:#0463fa;
     border: 1px solid white;
     align-items: center;
     text-align: center;
@@ -421,7 +421,7 @@ margin-top: 10px;
 }
 #features .left-part .exp i{
     font-size: 15px;
-    color: #007bff;
+    color: #0463fa;
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -455,7 +455,7 @@ margin-top: 10px;
 }
 #features .left-part .quality i{
     font-size: 15px;
-    color: #007bff;
+    color: #0463fa;
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -489,7 +489,7 @@ margin-top: 10px;
 }
 #features .left-part .positive i{
     font-size: 15px;
-    color: #007bff;
+    color: #0463fa;
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -524,7 +524,7 @@ margin-top: 10px;
 }
 #features .left-part .support i{
     font-size: 15px;
-    color: #007bff;
+    color: #0463fa;
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -620,7 +620,7 @@ margin-top: 10px;
     text-align: center;
     /* font-weight: bold; */
     font-size: 20px;
-    color: #3223fb;
+    color: #0463fa;
 }
 #doctors .exp-doctors .image .our-doctors .team-social{
     position: absolute;
@@ -644,7 +644,7 @@ margin-top: 10px;
     align-items: center;
     display: grid; 
     flex-wrap: wrap;
-    color: #007bff; 
+    color: #0463fa; 
 }
 #doctors .exp-doctors .image .our-doctors .team-social .btn-square{
     text-decoration: none;
@@ -654,7 +654,7 @@ margin-top: 10px;
     border-bottom-color: #eef5ff;
 }
 #doctors .exp-doctors .image .our-doctors .team-social .btn-square i:hover{
-    background-color: #007bff;
+    background-color: #0463fa;
     color: white;
 }
 /* ==========================doctors ends here============================= */
@@ -726,7 +726,7 @@ margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #007bff;
+    color: #0463fa;
     font-size: 16px;
 }
 .call div h1{
@@ -759,7 +759,7 @@ margin-top: 10px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: #007bff;
+    color: #0463fa;
     font-size: 16px;
 }
 .mail div h1{
@@ -820,7 +820,7 @@ margin-top: 10px;
     width: 427px;
     height: 55px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #0463fa;
     color: white;
     /* padding-top: 20px; */
     margin-top: 18px;
@@ -832,19 +832,21 @@ margin-top: 10px;
 /* ======================================testimonial starts here=========================================== */
 #testimonial{
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-top: 100px;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .testi .test-button{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .test-button button{
     width: 130px;
     height: 38px;
-    border-radius: 15px;
+    border-radius: 18px;
     font-size: 16px;
     color: #9b9a9a;
     background-color: white;
@@ -854,6 +856,69 @@ margin-top: 10px;
     margin-top: 20px;
     font-size: 40px;
     font-family: "Funnel Sans", sans-serif;
+    position: relative;
+    left: 70px;
+}
+.pat-circle{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 40px;
+}
+.pat-circle img{
+    width: 80px;
+    height: 80px;
+    border: 8px solid blue;
+    border-radius: 50%;
+}
+.opinion{
+    width: 550px;
+    height: 195px;
+    /* border: 1px solid blue; */
+    border-radius: 12px;
+    background-color: #0463fa;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    position: relative;
+    margin-top: 20px;
+}
+.pat-info{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: white;
+}
+.op{
+ padding-left: 12px;
+ line-height: 20px;
+ font-size: 17px;
+ font-family: "Funnel Sans", sans-serif;
+ color: white;
+}
+.op p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pat-info p{
+    font-size: 18px;
+}
+.foot{
+    width: 100% !important;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-color: #1b2c51;
+    margin-top: 100px;
 }
 
 
