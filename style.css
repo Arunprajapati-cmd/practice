@@ -180,14 +180,27 @@
     display: flex;
 }
 #about .leftside .first1{
-    width: 30%;
+    width: 250px;
+    height: 250px ;
     padding: 20px;
     background-color: white;
+    border-radius: 10px;
+    position: absolute; 
+    /* overflow: hidden; */
+    object-fit: cover;
+    top: 1100px;
+    left: 80px;
 }
 #about .leftside .second2{
-    width: 70%;
+    width: 400px;
+    height: 500px;
     padding: 20px;
     background-color: white;
+    overflow: hidden;
+    position: relative;
+    /* object-fit: cover; */
+    left: 200px;
+
 }
 .first1 img{
     width: 100%;
@@ -919,22 +932,215 @@ margin-top: 10px;
     /* border: 1px solid black; */
     background-color: #1b2c51;
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-left: 30px; */
+    /* padding-right: 20px; */
 }
+.add{
+    display:flex ;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    left: 6px;
+}
+.address-info div h2{
+    color: white;
+    padding-bottom: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    position: relative;
+    left: 0;
+    font-size: 20px;
 
+}
+.social-link{
+    color: white;
+}
+.ser-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quick-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sign-in{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.address-info{
+    position: relative;
+    left: 90px;
+    top: 70px;
+    gap: 50px;
+    line-height: 30px;
+}
+.address-info .add i{
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+.address-info .add p{
+    font-size: 16px;
+    font-family: "Funnel Sans", sans-serif;
+    word-spacing: 8px;
+}
+.social-link i{
+    border: 1px solid white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+.social-link i:hover{
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #0463fa;
+}
+.ser-info div h2{
+    color: white;
+    padding-bottom: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    position: relative;
+    left: 0;
+    font-size: 20px;
+}
+.ser-info{
+    position: relative;
+    /* left: 20px; */
+    top: 70px;
+    gap: 50px;
+    line-height: 30px; 
+    right: 40px; 
+}
+.ser-info a{
+    font-size: 16px;
+    font-family: "Funnel Sans", sans-serif;
+    word-spacing: 8px;
+    text-decoration: none;
+    color: white;
+}
+.ser-info a:hover{
+    color: #0463fa;
+    word-spacing: 10px;
+}
+.quick div h2{
+    color: white;
+    padding-bottom: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    position: relative;
+    left: 0;
+    font-size: 20px;
+}
+.quick{
+    position: relative;
+    /* left: 20px; */
+    top: 70px;
+    gap: 50px;
+    line-height: 30px; 
+    right: 140px; 
+}
+.quick a{
+    font-size: 16px;
+    font-family: "Funnel Sans", sans-serif;
+    word-spacing: 8px;
+    text-decoration: none;
+    color: white;
+}
+.quick a:hover{
+    color: #0463fa;
+    word-spacing: 10px;
+}
+.news h2{
+    color: white;
+    padding-bottom: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    position: relative;
+    left: 0;
+    font-size: 20px;
+}
+.news p{
+    color: white;
+    font-size: 16px;
+    font-family: "Funnel Sans", sans-serif;
+    line-height: 25px;
+}
+.news{
+    position: relative;
+    /* left: 130px; */
+    top: 70px;
+    gap: 50px;
+    line-height: 30px; 
+    right: 250px; 
+}
+.mailbox{
+    height: 60px;
+    width: 210px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    padding-left:15px;
 
-
-
-
-
-
- 
-   
-
-
-
-
-
-
-
+}
+.sign-up{
+    width: 80px;
+    height: 43px;
+    position: absolute;
+    top: 127px;
+    right: 5px;
+    border-radius: 10px;
+    background-color: #0463fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: -5px;
+    /* border-top: 0.1px solid rgb(172, 163, 163); */
+    /* width: 80%; */
+}
+.copyright{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: "Funnel Sans", sans-serif;
+    margin-left: 70px;
+}
+.copyright  .site{
+    color: white;
+    word-spacing: 5px;
+}
+.copyright i{
+    font-size: 10px;
+    position: relative;
+    /* top: 5px; */
+    bottom: 2px;
+}
+.design{
+    color: white;
+    margin-right: 70px;
+    font-family: "Funnel Sans", sans-serif;
+}
+.design a{
+    color: white;
+}
 
 
