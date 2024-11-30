@@ -342,7 +342,7 @@ margin-top: 1vh;
     overflow: hidden;
     width: 2vw;
     height: 4vh;
-    margin-top: 20px;
+    margin-top: 1vw;
     transition: all 0.3s ease;
 }
 
@@ -408,17 +408,17 @@ margin-top: 1vh;
     border: 1px solid black;
     background-color:#0463fa;
     flex-wrap: wrap;
-    padding: 50px;
-    padding-left: 100px;
+    padding: 4vw;
+    padding-left: 8vw;
  }
  #features .right-part{
     width: 50% !important;
-    height: 80%;
+    height: 82.8%;
 
  }
 #features .left-part .feat{
-    width: 110px;
-    height: 35px;
+    width: 10vw;
+    height: 5vh;
     border-radius: 18px;
     background-color:#0463fa;
     border: 1px solid white;
@@ -437,14 +437,14 @@ margin-top: 1vh;
     color: white;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 #features .left-part p{
     color: white;
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
+    line-height: 4vh;
     font-weight: 200;
 }
 #features .left-part .exp{
@@ -456,26 +456,26 @@ margin-top: 1vh;
     font-size: 15px;
     color: #0463fa;
     border: 1px solid white;
-    height: 60px;
-    width: 60px;
+    height: 9vh;
+    width: 4vw;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 6vh;
     background-color: white;
 }
 #features .left-part .exp .doc{
    color: white;
-   padding-top:40px ;
+   padding-top: 6vh;
    position: relative;
-   left: 15px;
+   left: 1vw;
    font-family: Arial, Helvetica, sans-serif;
 
 }
 #features .left-part .exp .doc h3{
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 #features .left-part .quality{
     display: flex;
@@ -490,33 +490,33 @@ margin-top: 1vh;
     font-size: 15px;
     color: #0463fa;
     border: 1px solid white;
-    height: 60px;
-    width: 60px;
+    height: 9vh;
+    width: 4vw;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 6vh;
     background-color: white;
 }
 #features .left-part .quality .rhs{
    color: white;
-   padding-top:40px ;
+   padding-top: 6vh ;
    position: relative;
-   left: 15px;
+   left: 1vw;
    font-family: Arial, Helvetica, sans-serif;
 
 }
 #features .left-part .quality .rhs h3{
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 #features .left-part .positive{
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
     position: relative;
-    bottom: 100px;
+    bottom: 14vh;
     /* top:90px; */
     /* right: 485px; */
 }
@@ -524,8 +524,8 @@ margin-top: 1vh;
     font-size: 15px;
     color: #0463fa;
     border: 1px solid white;
-    height: 60px;
-    width: 60px;
+    height: 9vh;
+    width: 4vw;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -536,14 +536,14 @@ margin-top: 1vh;
 }
 #features .left-part .positive .down{
    color: white;
-   padding-top:40px ;
+   padding-top: 6vh ;
    position: relative;
-   left: 20px;
+   left: 1vw;
    font-family: Arial, Helvetica, sans-serif;
 
 }
 #features .left-part .positive .down h3{
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 /* end================ */
 #features .left-part .support{
@@ -552,35 +552,36 @@ margin-top: 1vh;
     position: relative;
     bottom: 200px;
     /* left: 170px; */
-    right: 125px;
+    right: 8vw;
     
 }
 #features .left-part .support i{
     font-size: 15px;
     color: #0463fa;
     border: 1px solid white;
-    height: 60px;
-    width: 60px;
+    height: 9vh;
+    width: 4vw;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 3vw;
     background-color: white;
 }
 #features .left-part .support .hours{
    color: white;
-   padding-top:40px ;
+   padding-top:3vw ;
    position: relative;
-   left: 15px;
+   left: 1vw ;
    font-family: Arial, Helvetica, sans-serif;
 
 }
 #features .left-part .support .hours h3{
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 /* ===================================features ends here================================= */
+
 /* ==============================doctors section starts from here=========================== */
 #doctors{
     width: 100%;
@@ -590,11 +591,11 @@ margin-top: 1vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 8vh;
 }
 #doctors .exp-doctors .docts{
-    width: 110px;
-    height: 35px;
+    width: 8vw;
+    height: 5vh;
     border-radius: 18px;
     border: 1px solid rgb(195, 195, 248);
     font-family: Arial, Helvetica, sans-serif;
