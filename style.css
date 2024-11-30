@@ -302,15 +302,16 @@
    
 } 
 .bx {
-background-color: #cfdef3;
+background-color: #dde7f5;
 border-radius: 10px;
-box-shadow: 1px 1px 30px 1px rgb(85, 84, 84);
+/* box-shadow: 1px 1px 30px 1px rgb(85, 84, 84); */
 /* border: 1px solid black; */
-padding: 30px;
-padding-top: 40px;
-width: 250px;
-height: 260px;
+padding: 2vw;
+padding-top: 3vw;
+width: 15vw;
+height: 15vw;
 display: flex;
+flex-wrap: wrap;
 flex-direction: column;
 font-family: Arial, Helvetica, sans-serif;
 
@@ -324,23 +325,23 @@ font-family: Arial, Helvetica, sans-serif;
  .bx i {
 font-size: 40px;
 color: #0463fa;
-margin-bottom: 20px;
+margin-bottom: 1vw;
 } 
 .bx h1 {
 font-size: 1.5rem;
-margin-bottom: 10px;
+margin-bottom: 1vh;
 }
 
 .bx p {
 font-size: 1rem;
 color: #666;
-margin-top: 10px;
+margin-top: 1vh;
 }
 #services .boxex .bx .read-more {
     position: relative;
     overflow: hidden;
-    width: 30px;
-    height: 30px;
+    width: 2vw;
+    height: 4vh;
     margin-top: 20px;
     transition: all 0.3s ease;
 }
@@ -368,13 +369,13 @@ margin-top: 10px;
     color: #0463fa;
     white-space: nowrap;
     position: absolute;
-    left: 30px;
+    left: 2vw;
     opacity: 0;
     transition: all 0.3s ease;
 }
 
 #services .boxex .bx .read-more:hover {
-    width: 120px;
+    width: 8vw;
     border-radius: 10px 15px 15px 10px;
     background-color: #f8f9fa;
     border: 1px solid #0463fa;
@@ -382,7 +383,7 @@ margin-top: 10px;
 
 #services .boxex .bx .read-more:hover .text {
     opacity: 1;
-    left: 35px;
+    left: 2vw;
 }
 
 #services .boxex .bx .read-more .btn {
