@@ -1152,7 +1152,6 @@ margin-top: 1vh;
 .copyright i{
     font-size: 10px;
     position: relative;
-    /* top: 5px; */
     bottom: 2px;
 }
 .design{
@@ -1166,6 +1165,8 @@ margin-top: 1vh;
 /* =======================footer ends here=========================== */
 
 /* ======mobile css starts from here============ */
-@media
+@media(max-width:450px){
+    
+}
 
 
